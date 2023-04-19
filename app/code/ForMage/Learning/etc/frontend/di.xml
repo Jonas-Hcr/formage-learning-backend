@@ -18,6 +18,17 @@
             <argument name="color" xsi:type="object">ForMage\Learning\Model\ColorBlue</argument>
             <argument name="size" xsi:type="object">ForMage\Learning\Model\SizeBig</argument>
         </arguments>
+    </type>
 
+    <type name="ForMage\Learning\Model\Product\Shirt">
+        <arguments>
+            <argument name="typeText" xsi:type="string">Update String</argument>
+            <argument name="typeNumber" xsi:type="number">8000</argument>
+            <argument name="typeArray" xsi:type="array">
+                <item name="customName" xsi:type="string">Jonas Rodrigues</item>
+                <item name="customColor" xsi:type="string">Orange</item>
+            </argument>
+            <argument name="typeInitParameter" xsi:type="init_parameter">ForMage\Learning\Model\Product\Shirt::MY_CONSTANT</argument>
+        </arguments>
     </type>
 </config>
