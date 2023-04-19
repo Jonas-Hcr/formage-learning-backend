@@ -12,4 +12,12 @@
 
     <preference for="ForMage\Learning\Api\ColorInterface"
                 type="ForMage\Learning\Model\ColorYellow" />
+
+    <type name="ForMage\Learning\Model\Product\Shoe">
+        <arguments>
+            <argument name="color" xsi:type="object">ForMage\Learning\Model\ColorBlue</argument>
+            <argument name="size" xsi:type="object">ForMage\Learning\Model\SizeBig</argument>
+        </arguments>
+
+    </type>
 </config>
