@@ -1,0 +1,17 @@
+{
+  "name": "for-mage/module-learning",
+  "version": "1.0.0",
+  "description": "Curso Backend Magento 2 - 4mage",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ForMage\\Learning\\": ""
+    }
+  }
+}
